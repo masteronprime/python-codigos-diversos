@@ -1,0 +1,17 @@
+from libreria1 import*
+x1=int(input("insertar punto x1 "))
+y1=int(input("insertar punto y1 "))
+x2=int(input("insertar punto x2"))
+y2=int(input("insertar punto y2 "))
+x3=int(input("insertar punto x3 "))
+y3=int(input("insertar punto y3"))
+lado1=distancia(x1,x2,y1,y2)
+lado2=distancia(x2,x3,y2,y3)
+lado3=distancia(x1,x3,y1,y3)
+triangulo=estriangulo(lado1,lado2,lado3)
+p=perimetro(lado1,lado2,lado3)
+a=area(lado1,lado2,lado3)
+print(triangulo)
+print(p)
+print(a)
+
